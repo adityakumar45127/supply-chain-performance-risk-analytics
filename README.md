@@ -1,102 +1,664 @@
-# 📊 Supply Chain Performance & Risk Analytics
+# 🚚 Supply Chain Performance & Risk Analytics
 
-> Interactive Power BI dashboard for analyzing supply chain performance, profitability, operational risk, lead times, supplier performance, and product quality.
-
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-5E5E5E?style=for-the-badge)
-![DAX](https://img.shields.io/badge/DAX-Analytics-0078D4?style=for-the-badge)
-![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-0A66C2?style=for-the-badge)
+> An interactive Business Intelligence dashboard that transforms supply chain data into actionable insights by analyzing revenue, profitability, supplier performance, product performance, quality risk, lead-time risk, and operational efficiency using Microsoft Power BI.
 
 ---
 
-## 🎯 Project Overview
+# 📖 Project Overview
 
-This project is an interactive **Supply Chain Performance & Risk Analytics dashboard** developed using Microsoft Power BI.
+**Supply Chain Performance & Risk Analytics** is an interactive Business Intelligence and Data Analytics project developed using **Microsoft Power BI**.
 
-The dashboard transforms supply chain data into meaningful business insights across:
+The dashboard transforms raw supply chain data into meaningful business insights by combining data preparation, Power Query transformations, DAX-based calculations, KPI development, and interactive data visualization.
+
+The project provides a centralized analytical view of:
+
+- Financial performance
+- Revenue and cost
+- Gross profit and profit margin
+- Product performance
+- Location performance
+- Supplier activity
+- Quality risk
+- Lead-time risk
+- Average lead time
+- Product defect rates
+
+The dashboard is divided into two analytical pages:
+
+### 📈 Supply Chain Performance
+
+Provides an overview of financial and operational performance, including revenue, cost, profitability, product performance, location performance, supplier activity, and order risks.
+
+### ⚠️ Risk Analysis
+
+Provides a focused analysis of quality risk, lead-time risk, supplier order activity, average lead time, and product defect rates.
+
+The project demonstrates the practical application of:
+
+- Business Intelligence
+- Data Analytics
+- Data Cleaning
+- Data Transformation
+- Power Query
+- DAX
+- Data Visualization
+- KPI Development
+- Supply Chain Analytics
+- Risk Analytics
+
+---
+
+# ✨ Key Features
+
+## 💰 Financial Performance
+
+- ✅ Total Revenue KPI
+- ✅ Gross Profit KPI
+- ✅ Total Cost KPI
+- ✅ Profit Margin KPI
+- ✅ Revenue by Product Type
+- ✅ Revenue by Location
+- ✅ Revenue by Supplier
+
+## 📦 Product Analytics
+
+- ✅ Product-Type Revenue Analysis
+- ✅ Average Defect Rate by Product Type
+- ✅ Product Performance Comparison
+- ✅ Quality Performance Analysis
+
+## 🏭 Supplier Analytics
+
+- ✅ Revenue by Supplier
+- ✅ Total Orders by Supplier
+- ✅ Supplier Activity Analysis
+- ✅ Supplier-Level Comparison
+
+## ⚠️ Risk Analytics
+
+- ✅ High Quality Risk Orders
+- ✅ High Lead-Time Risk Orders
+- ✅ Total Orders by Quality Risk
+- ✅ Total Orders by Lead-Time Risk
+- ✅ Average Lead Time
+- ✅ Average Defect Rate by Product Type
+
+## 📊 Interactive Dashboard
+
+- ✅ Multi-Page Power BI Dashboard
+- ✅ KPI Cards
+- ✅ Interactive Charts
+- ✅ Location Filter
+- ✅ Product Type Filter
+- ✅ Business-Oriented Visualizations
+- ✅ Risk Monitoring
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Business Intelligence** | Microsoft Power BI |
+| **Data Transformation** | Power Query |
+| **Analytics & Calculations** | DAX |
+| **Data Visualization** | Power BI Visuals |
+| **Data Analysis** | Supply Chain Analytics |
+| **Dashboarding** | Interactive Power BI Dashboard |
+
+---
+
+# 🧠 Core Modules
+
+The dashboard consists of multiple analytical modules:
+
+- Financial Performance Analysis
+- Revenue Analysis
+- Product Analysis
+- Location Analysis
+- Supplier Analysis
+- Quality Risk Analysis
+- Lead-Time Risk Analysis
+- Defect Rate Analysis
+- KPI Monitoring
+- Interactive Dashboard
+
+---
+
+# 📂 Project Structure
+
+```text
+Supply-Chain-Performance-Risk-Analytics
+│
+├── Supply_Chain_Performance_Risk_Analytics.pbix
+│
+├── README.md
+│
+└── screenshots/
+    ├── dashboard-overview.png
+    └── risk-analysis.png
+```
+
+---
+
+# 📊 Dashboard Architecture
+
+```text
+                 SUPPLY CHAIN ANALYTICS
+                              │
+             ┌────────────────┴────────────────┐
+             │                                 │
+             ▼                                 ▼
+   SUPPLY CHAIN PERFORMANCE              RISK ANALYSIS
+             │                                 │
+     ┌───────┼────────┐              ┌─────────┼─────────┐
+     │       │        │              │         │         │
+   Revenue  Cost   Profitability   Quality   Lead Time  Defects
+     │       │        │              │         │         │
+     └───────┴────────┘              └─────────┴─────────┘
+             │                                 │
+             ▼                                 ▼
+        Business KPIs                    Risk Insights
+```
+
+---
+
+# 📈 Dashboard Page 1 — Supply Chain Performance
+
+The first dashboard provides a high-level overview of financial and operational supply chain performance.
+
+## 💳 Key Performance Indicators
+
+### 💰 Total Revenue
+
+Measures the overall revenue generated across the supply chain.
+
+### 📈 Gross Profit
+
+Measures revenue remaining after total cost.
+
+### 💵 Total Cost
+
+Measures the overall cost associated with supply chain operations.
+
+### 📊 Profit Margin
+
+Measures profitability relative to revenue.
+
+## 📊 Visualizations
+
+### Revenue by Product Type
+
+Compares total revenue generated by different product types.
+
+### Revenue by Location
+
+Provides a comparison of revenue performance across different locations.
+
+### Revenue by Supplier
+
+Analyzes supplier-level revenue contribution.
+
+### Total Orders by Quality Risk
+
+Shows the distribution of orders across quality-risk categories.
+
+### Total Orders by Lead-Time Risk
+
+Shows the distribution of orders across lead-time-risk categories.
+
+---
+
+# ⚠️ Dashboard Page 2 — Risk Analysis
+
+The second dashboard provides a focused view of operational and product-related risks.
+
+## 🚨 Risk KPIs
+
+- ⚠️ High Quality Risk Orders
+- 🚚 High Lead-Time Risk Orders
+- ⏱️ Average Lead Time
+
+## 📊 Risk Visualizations
+
+### Total Orders by Quality Risk
+
+Displays the distribution of orders across High, Medium, and Low quality-risk categories.
+
+### Total Orders by Lead-Time Risk
+
+Displays the distribution of orders across High, Medium, and Low lead-time-risk categories.
+
+### Total Orders by Supplier
+
+Provides supplier-level visibility into overall order activity.
+
+### Average Defect Rate by Product Type
+
+Compares average defect rates across different product categories.
+
+---
+
+# 🗄️ Key Metrics
+
+| Metric | Description |
+| :--- | :--- |
+| **Total Revenue** | Overall revenue generated by the supply chain |
+| **Gross Profit** | Revenue remaining after total cost |
+| **Total Cost** | Overall supply chain cost |
+| **Profit Margin** | Profitability relative to total revenue |
+| **Total Orders** | Overall order activity |
+| **Average Lead Time** | Average lead time across orders |
+| **High Quality Risk Orders** | Orders classified as high quality risk |
+| **High Lead-Time Risk Orders** | Orders classified as high lead-time risk |
+
+---
+
+# ⚙️ Data Preparation Workflow
+
+```text
+                       RAW SUPPLY CHAIN DATA
+                                  │
+                                  ▼
+                           Data Preparation
+                                  │
+                                  ▼
+                             Power Query
+                                  │
+                                  ▼
+                         Data Transformation
+                                  │
+                                  ▼
+                          Business Calculations
+                                  │
+                                  ▼
+                                DAX
+                                  │
+                                  ▼
+                         Power BI Data Model
+                                  │
+                    ┌─────────────┴─────────────┐
+                    ▼                           ▼
+         Supply Chain Performance         Risk Analysis
+                    │                           │
+                    └─────────────┬─────────────┘
+                                  ▼
+                           Business Insights
+```
+
+---
+
+# 🧹 Data Preparation & Transformation
+
+Data preparation and transformation were performed using Power Query before developing the final dashboard.
+
+## Transformation Process
+
+1. Imported the supply chain dataset.
+2. Validated and promoted headers.
+3. Corrected data types.
+4. Cleaned data fields.
+5. Handled duplicate records where required.
+6. Prepared calculated and derived fields.
+7. Prepared risk-related classifications.
+8. Prepared business metrics.
+9. Loaded the transformed data into the Power BI data model.
+10. Developed interactive visualizations and KPI cards.
+
+## Key Transformation Activities
+
+- Header validation
+- Data type correction
+- Data cleaning
+- Duplicate handling
+- Calculated fields
+- Risk classification
+- Profitability preparation
+- Lead-time analysis preparation
+- Quality analysis preparation
+
+---
+
+# 🧮 DAX Measures
+
+The dashboard uses DAX measures to calculate important business metrics and KPIs.
+
+## 💰 Total Revenue
+
+```DAX
+Total Revenue =
+SUM('Supply_Chain_Performance_Risk_Dataset'[Revenue])
+```
+
+## 💵 Total Cost
+
+```DAX
+Total Cost =
+SUM('Supply_Chain_Performance_Risk_Dataset'[Total_Cost])
+```
+
+## 📈 Gross Profit
+
+```DAX
+Gross Profit =
+[Total Revenue] - [Total Cost]
+```
+
+## 📊 Profit Margin %
+
+```DAX
+Profit Margin % =
+DIVIDE([Gross Profit], [Total Revenue], 0)
+```
+
+## 📦 Total Orders
+
+```DAX
+Total Orders =
+DISTINCTCOUNT('Supply_Chain_Performance_Risk_Dataset'[Order_ID])
+```
+
+## ⏱️ Average Lead Time
+
+```DAX
+Average Lead Time =
+AVERAGE('Supply_Chain_Performance_Risk_Dataset'[Lead_Time_Days])
+```
+
+---
+
+# 🔍 Analytical Areas
+
+## 💰 Financial Analytics
+
+Analyzes Revenue, Total Cost, Gross Profit, and Profit Margin to provide a high-level view of financial performance.
+
+## 📦 Product Analytics
+
+Analyzes product-level revenue, product contribution, average defect rates, and quality-related performance.
+
+## 📍 Location Analytics
+
+Compares revenue performance across different operational locations.
+
+## 🏭 Supplier Analytics
+
+Analyzes supplier revenue, order activity, and supplier-level performance.
+
+## ⚠️ Quality Risk Analytics
+
+Analyzes the distribution of orders across High Risk, Medium Risk, and Low Risk categories.
+
+## 🚚 Lead-Time Analytics
+
+Analyzes high lead-time risk orders, medium lead-time risk orders, low lead-time risk orders, and average lead time.
+
+---
+
+# 📊 Dashboard Features
+
+The interactive Power BI dashboard provides:
+
+- 🎯 Financial KPI Cards
+- 💰 Revenue Analysis
+- 📈 Gross Profit Analysis
+- 💵 Cost Analysis
+- 📊 Profit Margin Analysis
+- 📦 Product Analysis
+- 📍 Location Analysis
+- 🏭 Supplier Analysis
+- ⚠️ Quality Risk Analysis
+- 🚚 Lead-Time Risk Analysis
+- ⏱️ Average Lead Time
+- 📉 Defect Rate Analysis
+- 🎛️ Interactive Filters
+- 📊 Interactive Charts
+
+---
+
+# 💡 Business Insights
+
+The dashboard enables users and stakeholders to:
+
+- Monitor overall supply chain financial performance.
+- Identify major revenue-generating product types.
+- Compare location-level revenue.
+- Analyze supplier contribution.
+- Monitor order activity.
+- Identify high quality-risk orders.
+- Identify high lead-time-risk orders.
+- Evaluate average lead time.
+- Compare product defect rates.
+- Monitor profitability.
+- Identify operational areas requiring attention.
+- Support data-driven supply chain decisions.
+
+---
+
+# 📸 Dashboard Screenshots
+
+## 🏠 Supply Chain Performance Dashboard
+
+![Supply Chain Performance Dashboard](screenshots/dashboard-overview.png)
+
+## ⚠️ Risk Analysis Dashboard
+
+![Risk Analysis Dashboard](screenshots/risk-analysis.png)
+
+---
+
+# 🚀 Installation & Setup
+
+## Step 1 — Download the Repository
+
+Clone or download this repository from GitHub:
+
+```bash
+git clone https://github.com/adityakumar45127/Supply-Chain-Performance-Risk-Analytics.git
+```
+
+## Step 2 — Open the Project
+
+Navigate to the project directory:
+
+```bash
+cd Supply-Chain-Performance-Risk-Analytics
+```
+
+## Step 3 — Open Power BI
+
+Open `Supply_Chain_Performance_Risk_Analytics.pbix` using Microsoft Power BI Desktop.
+
+---
+
+# ▶️ How to Use
+
+## Option 1 — Supply Chain Performance
+
+Open the **Supply Chain Performance** page to analyze:
 
 - Revenue
+- Cost
 - Gross Profit
-- Total Cost
 - Profit Margin
-- Orders
-- Suppliers
-- Locations
-- Product Types
+- Product Performance
+- Location Performance
+- Supplier Performance
+- Order Risk
+
+## Option 2 — Risk Analysis
+
+Open the **Risk Analysis** page to analyze:
+
 - Quality Risk
 - Lead-Time Risk
-- Defect Rate
+- Average Lead Time
+- Supplier Order Activity
+- Product Defect Rates
 
-The project contains two analytical pages:
+## Interactive Filtering
 
-**Page 1 — Supply Chain Performance**
-
-**Page 2 — Risk Analysis**
-
----
-
-## 💼 Business Problem
-
-Supply chain operations involve multiple interconnected factors including financial performance, supplier activity, product quality, order volume, and delivery lead times.
-
-This dashboard provides a centralized analytical view to help answer:
-
-- What is the overall revenue and profitability?
-- Which product types generate the most revenue?
-- Which locations contribute the most revenue?
-- Which suppliers generate significant revenue?
-- How are orders distributed across quality-risk levels?
-- How many orders have high lead-time risk?
-- What is the average lead time?
-- Which product types have higher defect rates?
-
----
-
-# 📈 Page 1 — Supply Chain Performance
-
-### KPIs
-
-- 💰 Total Revenue
-- 📈 Gross Profit
-- 💵 Total Cost
-- 📊 Profit Margin %
-
-### Visualizations
-
-- Total Revenue by Product Type
-- Total Revenue by Location
-- Total Revenue by Supplier
-- Total Orders by Quality Risk
-- Total Orders by Lead-Time Risk
-
-### Filters
+Use the available filters to dynamically explore:
 
 - Location
 - Product Type
 
 ---
 
-# ⚠️ Page 2 — Risk Analysis
+# 💡 Skills Demonstrated
 
-### Risk KPIs
+This project demonstrates practical experience in:
 
-- ⚠️ High Quality Risk Orders
-- 🚚 High Lead-Time Risk Orders
-- ⏱️ Average Lead Time
+## Business Intelligence
 
-### Visualizations
+- Microsoft Power BI
+- Dashboard Development
+- KPI Development
+- Business Reporting
+- Decision-Support Visualization
 
-- Total Orders by Quality Risk
-- Total Orders by Lead-Time Risk
-- Total Orders by Supplier
-- Average Defect Rate by Product Type
+## Data Analytics
+
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis
+- Business Analytics
+- Supply Chain Analytics
+
+## DAX
+
+- Measure Creation
+- Aggregations
+- Profit Calculations
+- Margin Calculations
+- KPI Calculations
+
+## Power Query
+
+- Data Transformation
+- Data Type Handling
+- Data Cleaning
+- Derived Fields
+
+## Data Visualization
+
+- Interactive Charts
+- KPI Cards
+- Dashboard Design
+- Business-Oriented Visualizations
 
 ---
 
-# 🧮 DAX Measures
+# 🎯 Learning Outcomes
 
-### Total Revenue
+Through this project, I gained hands-on experience in:
 
-```DAX
-Total Revenue =
-SUM('Supply_Chain_Performance_Risk_Dataset'[Revenue])
+- Building an end-to-end Power BI dashboard.
+- Designing multi-page interactive reports.
+- Preparing supply chain data for analysis.
+- Performing data transformation using Power Query.
+- Creating DAX-based business metrics.
+- Developing KPI-driven dashboards.
+- Performing supplier analysis.
+- Performing product analysis.
+- Performing quality-risk analysis.
+- Performing lead-time-risk analysis.
+- Analyzing product defect rates.
+- Converting operational data into business insights.
+- Designing decision-support dashboards.
+- Presenting analytical findings through interactive visualizations.
+
+---
+
+# 🚀 Future Enhancements
+
+The project can continue evolving with additional capabilities such as:
+
+- Time-Series Revenue Analysis
+- Demand Forecasting
+- Supplier Risk Scoring
+- Predictive Lead-Time Analysis
+- Automated Anomaly Detection
+- Supplier Performance Scoring
+- Advanced Drill-Through Analysis
+- Automated Power BI Data Refresh
+- Predictive Quality Analysis
+- Machine Learning-Based Supply Chain Risk Prediction
+- Executive-Level Summary Dashboard
+
+---
+
+# 📈 Project Highlights
+
+- ✅ End-to-End Power BI Analytics Project
+- ✅ Multi-Page Interactive Dashboard
+- ✅ KPI-Based Business Analysis
+- ✅ Power Query Data Transformation
+- ✅ DAX-Based Business Metrics
+- ✅ Financial Performance Analysis
+- ✅ Product Performance Analysis
+- ✅ Supplier Analysis
+- ✅ Quality Risk Analysis
+- ✅ Lead-Time Risk Analysis
+- ✅ Product Defect Analysis
+- ✅ Interactive Filters
+- ✅ Business-Oriented Data Visualization
+- ✅ Decision-Support Reporting
+
+---
+
+# 👨‍💻 Author
+
+## Aditya Kumar
+
+**B.Tech – Electronics & Communication Engineering**
+
+### Connect with Me
+
+**GitHub:**  
+https://github.com/adityakumar45127
+
+**LinkedIn:**  
+https://www.linkedin.com/in/aditya-kumar45127/
+
+---
+
+# 📄 License
+
+This project is intended for educational, portfolio, and demonstration purposes.
+
+---
+
+# 🙏 Acknowledgements
+
+This project demonstrates the practical application of:
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Analytics
+- Business Intelligence
+- Supply Chain Analytics
+- Data Visualization
+
+The project focuses on transforming operational supply chain data into an interactive analytical solution.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It helps increase the visibility of the project and motivates further development.
+
+---
+
+# ❤️ Thank You
+
+Thank you for visiting this repository.
+
+Feedback, suggestions, and contributions are always appreciated.
+
+**Built with Microsoft Power BI • Power Query • DAX • Business Intelligence**
+
+**Happy Analyzing! 📊🚚**
