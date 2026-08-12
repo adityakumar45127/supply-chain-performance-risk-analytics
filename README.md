@@ -225,33 +225,32 @@ The project consists of the following analytical modules:
 
 # 📂 Project Structure
 
-Supply-Chain-Performance-Risk-Analytics/
-│
-├── POWER BI PROJECT.pbix
-├── SUPPLY CHAIN PERFORMANCE DASHBOARD.png"
-├── Risk Analysis & Chain Monitoring.png
-└── README.md
+    Supply-Chain-Performance-Risk-Analytics/
+    │
+    ├── POWER BI PROJECT.pbix
+    ├── SUPPLY CHAIN PERFORMANCE DASHBOARD.png
+    ├── Risk Analysis & Chain Monitoring.png
+    └── README.md
 
 ---
 
 # 📊 Dashboard Architecture
 
-                    SUPPLY CHAIN ANALYTICS
-                             │
-              ┌──────────────┴──────────────┐
-              │                             │
-              ▼                             ▼
-   SUPPLY CHAIN PERFORMANCE        RISK & QUALITY ANALYSIS
-              │                             │
-      ┌───────┼────────┐          ┌─────────┼─────────┐
-      │       │        │          │         │         │
-   Revenue  Cost   Profitability Quality  Lead Time  Defects
-      │       │        │          │         │         │
-      └───────┴────────┘          └─────────┴─────────┘
-              │                             │
-              ▼                             ▼
-       Business KPIs                 Risk Insights
-
+    SUPPLY CHAIN ANALYTICS
+             │
+             ├──────────────────────────────┐
+             │                              │
+             ▼                              ▼
+    SUPPLY CHAIN PERFORMANCE       RISK & QUALITY ANALYSIS
+             │                              │
+      ┌──────┼──────┐               ┌───────┼───────┐
+      │      │      │               │       │       │
+    Revenue  Cost  Profitability   Quality Lead Time Defects
+      │      │      │               │       │       │
+      └──────┴──────┘               └───────┴───────┘
+             │                              │
+             ▼                              ▼
+       Business KPIs                  Risk Insights
 ---
 
 # ⚙️ Data Preparation & Transformation
