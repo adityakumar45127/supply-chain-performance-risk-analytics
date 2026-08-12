@@ -383,7 +383,7 @@ The first page focuses on financial and operational performance, including reven
 
 The second page focuses on quality risk, lead-time risk, supplier order activity, average lead time, and product defect rates.
 
-![Risk & Quality Analysis](![Risk Analysis & Chain Monitoring](Risk%20Analysis%20%26%20Chain%20Monitoring.png))
+![Risk Analysis & Chain Monitoring](Risk%20Analysis%20%26%20Chain%20Monitoring.png)
 
 ---
 
