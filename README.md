@@ -229,7 +229,7 @@ Supply-Chain-Performance-Risk-Analytics/
 │
 ├── POWER BI PROJECT.pbix
 ├── SUPPLY CHAIN PERFORMANCE DASHBOARD.png"
-├── RISK ANALYSIS & SUPPLY CHAIN MONITORING.png
+├── Risk Analysis & Chain Monitoring.png
 └── README.md
 
 ---
@@ -383,7 +383,7 @@ The first page focuses on financial and operational performance, including reven
 
 The second page focuses on quality risk, lead-time risk, supplier order activity, average lead time, and product defect rates.
 
-![Risk & Quality Analysis](RISK%20ANALYSIS%20%26%20SUPPLY%20CHAIN%20MONITORING.png)
+![Risk & Quality Analysis](![Risk Analysis & Chain Monitoring](Risk%20Analysis%20%26%20Chain%20Monitoring.png))
 
 ---
 
